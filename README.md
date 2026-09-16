@@ -6,3 +6,5 @@ Class project for learning how commits on GitHub work.
 commit one!
 
 commit two
+
+commit three
