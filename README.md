@@ -16,54 +16,6 @@ fdgfdgsfd commit three
 
 this is going really fast now i'm actually learning lol 
 
-asdfds commit five
+meow conflict five is finally done 
 
-commit six
-
-commit seven
-
-commit eight
-
-commit nine
-
-commit ten
-
-commit eleven
-
-commit twelve
-
-commit thirteen
-
-commit fourteen
-
-commit fifteen
-
-commit sixteen
-
-commit seventeen
-
-commit eighteen
-
-commit nineteen
-
-commit twenty
-
-commit twenty-one
-
-commit twenty-two
-
-commit twenty-three
-
-commit twenty-four
-
-commit twenty-five
-
-commit twenty-six
-
-commit twenty-seven
-
-commit twenty-eight
-
-commit twenty-nine
-
-commit thirty!!!!
+i also finally cleaned up readme somewhat i guess
