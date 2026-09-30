@@ -4,7 +4,7 @@ Class project for learning how commits on GitHub work.
 # below i will add lines for every new commit i make
 
 commit one RESOLVED CONFLICT
-commit two CONFLICT TWOOO
+commit two CCONFLICT TWOOO
 
 commit three
 
