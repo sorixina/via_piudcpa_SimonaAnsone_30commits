@@ -10,7 +10,7 @@ commit one! FEATURE CONFLICT
 
 CONFLICT TWOcommit two
 
-commit three
+fdgfdgsfd commit three
 
 commit four
 
