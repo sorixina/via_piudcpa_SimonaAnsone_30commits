@@ -14,7 +14,7 @@ commit two CCONFLICT TWOOO
 
 fdgfdgsfd commit three
 
-commit four
+more moreee commit four
 
 commit five
 
