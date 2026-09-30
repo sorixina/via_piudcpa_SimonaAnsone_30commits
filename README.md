@@ -12,7 +12,7 @@ CONFLICT TWOcommit two
 
 fdgfdgsfd commit three
 
-commit four
+afdasfadsf commit four
 
 commit five
 
