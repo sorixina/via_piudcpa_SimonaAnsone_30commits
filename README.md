@@ -3,7 +3,7 @@ Class project for learning how commits on GitHub work.
 
 # below i will add lines for every new commit i make
 
-commit one!
+commit one! FEATURE CONFLICT
 
 commit two
 
