@@ -5,7 +5,7 @@ Class project for learning how commits on GitHub work.
 
 commit one! FEATURE CONFLICT
 
-commit two
+CONFLICT TWOcommit two
 
 commit three
 
