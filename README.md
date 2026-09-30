@@ -12,7 +12,7 @@ something something
 commit one RESOLVED CONFLICT
 commit two CCONFLICT TWOOO
 
-more things commit three
+fdgfdgsfd commit three
 
 commit four
 
