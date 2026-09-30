@@ -14,7 +14,7 @@ commit two CCONFLICT TWOOO
 
 fdgfdgsfd commit three
 
-more moreee commit four
+this is going really fast now i'm actually learning lol 
 
 commit five
 
