@@ -1,4 +1,7 @@
 # via_piudcpa_SimonaAnsone_30commits
+
+conflict three
+
 Class project for learning how commits on GitHub work.
 
 something something
