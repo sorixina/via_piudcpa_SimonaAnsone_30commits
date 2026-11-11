@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="758.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ocstoragesystem.HomepageController">
+   <children>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="-42.0" layoutY="-51.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="519.0" layoutY="-51.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="-42.0" layoutY="638.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="519.0" layoutY="638.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="835.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/decor3.png" />
+         </image>
+      </ImageView>
+      <Text fill="#2d66b6" layoutX="457.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="base">
+         <font>
+            <Font name="Abaddon Light Regular" size="43.0" />
+         </font>
+      </Text>
+      <HBox layoutX="24.0" layoutY="61.0" prefHeight="35.0" prefWidth="951.0" style="-fx-background-color: #2D66B6;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="manage your original characters!" textAlignment="CENTER">
+               <font>
+                  <Font name="Abaddon Light Regular" size="14.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="370.0" top="10.0" />
+         </padding>
+      </HBox>
+      <Text fill="#2d66b6" layoutX="146.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--------------------------------">
+         <font>
+            <Font name="Abaddon Light Regular" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#2d66b6" layoutX="605.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--------------------------------">
+         <font>
+            <Font name="Abaddon Light Regular" size="18.0" />
+         </font>
+      </Text>
+      <GridPane layoutX="24.0" layoutY="122.0" prefHeight="583.0" prefWidth="951.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="520.0" minWidth="0.0" prefWidth="160.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="791.0" minWidth="10.0" prefWidth="648.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="141.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <Label layoutX="28.0" layoutY="22.0" prefHeight="29.0" prefWidth="561.0" style="-fx-background-color: #D7E8F8;" text="featured characters" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="606.0" layoutY="22.0" prefHeight="29.0" prefWidth="23.0" style="-fx-background-color: #D7E8F8;" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="24.0" layoutY="455.0" prefHeight="29.0" prefWidth="561.0" style="-fx-background-color: #D7E8F8;" text="site announcements" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="602.0" layoutY="455.0" prefHeight="29.0" prefWidth="23.0" style="-fx-background-color: #D7E8F8;" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="28.0" layoutY="83.0" prefHeight="353.0" prefWidth="277.0">
+                     <children>
+                        <ImageView fx:id="featureimageone"
+           layoutX="15.0"
+           layoutY="14.0"
+           fitHeight="206.0"
+           fitWidth="252.0"
+           preserveRatio="true" />
+
+<Label fx:id="featurenameone" layoutX="96.0" layoutY="220.0" text="name" textFill="#2d66b6">
+    <font>
+        <Font name="Abaddon Light Regular" size="43.0" />
+    </font>
+</Label>
+
+                        <Label fx:id="featuredescone" contentDisplay="CENTER" layoutX="47.0" layoutY="306.0" prefHeight="42.0" prefWidth="184.0" text="insert a brief description here!" textAlignment="CENTER" textFill="#85bbe1" wrapText="true">
+                           <font>
+                              <Font name="Abaddon Light Regular" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="358.0" layoutY="83.0" prefHeight="353.0" prefWidth="277.0">
+                     <children>
+                        <ImageView fx:id="featureimagetwo"
+           layoutX="13.0"
+           layoutY="14.0"
+           fitHeight="206.0"
+           fitWidth="252.0"
+           preserveRatio="true" />
+<Label fx:id="featurenametwo" layoutX="103.0" layoutY="220.0" text="name" textFill="#2d66b6">
+    <font>
+        <Font name="Abaddon Light Regular" size="43.0" />
+    </font>
+</Label>
+
+
+                        <Label fx:id="featuredesctwo" contentDisplay="CENTER" layoutX="37.0" layoutY="306.0" prefHeight="42.0" prefWidth="184.0" text="insert a brief description here!" textAlignment="CENTER" textFill="#85bbe1" wrapText="true">
+                           <font>
+                              <Font name="Abaddon Light Regular" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Text fill="#2d66b6" layoutX="41.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- april 4: nothing!">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#2d66b6" layoutX="41.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- april 1: happy april fools day! made you look">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text fill="#2d66b6" layoutX="36.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="navigation">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="allcharactersbtn" fill="#2d66b6" layoutX="36.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="all characters">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+               <children>
+                  <Text fill="#2d66b6" layoutX="51.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tags">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="taghumanbtn" layoutX="14.0" layoutY="61.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #094499;" text="human" textFill="WHITE">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tagnonhumanbtn" layoutX="14.0" layoutY="112.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #094499;" text="non-human" textFill="WHITE">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tagmalebtn" layoutX="14.0" layoutY="163.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #094499;" text="male" textFill="WHITE">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tagfemalebtn" layoutX="14.0" layoutY="212.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #094499;" text="female" textFill="WHITE">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="758.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ocstoragesystem.AddCharacterPageController">
+   <children>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="-42.0" layoutY="-51.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="519.0" layoutY="-51.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="-42.0" layoutY="638.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="689.0" fitWidth="561.0" layoutX="519.0" layoutY="638.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/loginbackground.png" />
+         </image>
+      </ImageView>
+      <Text fill="#2d66b6" layoutX="457.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="base">
+         <font>
+            <Font name="Abaddon Light Regular" size="43.0" />
+         </font>
+      </Text>
+      <HBox layoutX="24.0" layoutY="61.0" prefHeight="35.0" prefWidth="951.0" style="-fx-background-color: #2D66B6;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="manage your original characters!" textAlignment="CENTER">
+               <font>
+                  <Font name="Abaddon Light Regular" size="14.0" />
+               </font>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="370.0" top="10.0" />
+         </padding>
+      </HBox>
+      <Text fill="#2d66b6" layoutX="146.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--------------------------------">
+         <font>
+            <Font name="Abaddon Light Regular" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#2d66b6" layoutX="605.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--------------------------------">
+         <font>
+            <Font name="Abaddon Light Regular" size="18.0" />
+         </font>
+      </Text>
+      <GridPane layoutX="24.0" layoutY="122.0" prefHeight="583.0" prefWidth="951.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="520.0" minWidth="0.0" prefWidth="160.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="791.0" minWidth="10.0" prefWidth="648.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="141.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <Label layoutX="28.0" layoutY="22.0" prefHeight="29.0" prefWidth="561.0" style="-fx-background-color: #D7E8F8;" text="creating a new character...." textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="606.0" layoutY="22.0" prefHeight="29.0" prefWidth="23.0" style="-fx-background-color: #D7E8F8;" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="characterimage" fitHeight="404.0" fitWidth="321.0" layoutX="309.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="uploadimagebutton" layoutX="428.0" layoutY="491.0" text="upload image!" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="createbtn" layoutX="281.0" layoutY="535.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #D7E8F8;" text="create!!!" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="namefield" layoutX="40.0" layoutY="106.0" prefHeight="25.0" prefWidth="175.0" />
+                  <TextField fx:id="agefield" layoutX="40.0" layoutY="162.0" prefHeight="25.0" prefWidth="175.0" />
+                  <ComboBox fx:id="gendercombobox" layoutX="40.0" layoutY="219.0" prefHeight="25.0" prefWidth="73.0" />
+                  <Label layoutX="40.0" layoutY="84.0" text="name:" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="140.0" text="age:" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="197.0" text="gender:" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="descriptionfield" layoutX="41.0" layoutY="273.0" prefHeight="239.0" prefWidth="252.0" />
+                  <Label layoutX="40.0" layoutY="252.0" text="description:" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="tagcombobox" layoutX="167.0" layoutY="218.0" prefHeight="25.0" prefWidth="89.0" />
+                  <Label layoutX="167.0" layoutY="196.0" text="tag:" textFill="#2d66b6">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text fill="#2d66b6" layoutX="36.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="navigation">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="gobackbtn" fill="#2d66b6" layoutX="36.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="go back">
+                     <font>
+                        <Font name="Abaddon Light Regular" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="845.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/decor3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

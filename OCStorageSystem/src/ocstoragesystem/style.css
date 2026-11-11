@@ -1,0 +1,21 @@
+.table-view .column-header-background .label {
+    -fx-text-fill: #2D66B6;
+    -fx-font-family: "Abaddon Light";
+	-fx-font-size: 16px;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #094499;
+    -fx-font-family: "Abaddon Light";
+	-fx-font-size: 14px;
+}
+
+.list-view .list-cell {
+    -fx-font-family: "Abaddon Light";
+    -fx-text-fill: #094499;
+}
+
+.text-field {
+    -fx-font-family: "Abaddon Light";
+    -fx-text-fill: #094499;
+}
